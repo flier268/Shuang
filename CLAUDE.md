@@ -23,6 +23,7 @@ Shuang (双拼练习) is a Progressive Web App (PWA) for learning Chinese double
 - `npm run bundle` - Bundle JavaScript files
 - `npm run rename` - Rename bundled files
 - `npm run release` - Create release package
+- `npm run update-version` - Update version numbers across all files
 
 ## Architecture
 
@@ -69,6 +70,24 @@ The `Shuang.resource` object contains:
 2. Run `npm run debug` for development builds
 3. Run `npm run build` for production builds
 4. For keyboard layout changes, run `npm run build:svg`
+
+## Version Management
+
+The project uses a centralized version management system:
+
+- `version.js` - Central version configuration file
+- `scripts/update-version.js` - Automated version update script
+- `VERSION-MANAGEMENT.md` - Detailed version management documentation
+
+To update the version:
+1. Edit the version info in `version.js`
+2. Run `npm run update-version` to automatically update all files
+
+This ensures consistent versioning across:
+- `package.json` - NPM package version
+- `README.md` - Documentation version
+- `index.html` & `index.src.html` - Web interface versions
+- `sw.js` - Service Worker cache name
 
 ## File Organization
 

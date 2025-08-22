@@ -1,6 +1,6 @@
 {
   "name": "Shuang",
-  "version": "6.0.0",
+  "version": "6.0 2025.08.22",
   "description": "帮助你快速上手双拼输入法",
   "scripts": {
     "clear": "node scripts/clear.js",
@@ -20,7 +20,8 @@
     "debug:html": "node scripts/copy.js index.src.html index.html",
     "debug:spa": "echo 'PWA files already in root directory for debug'",
     "start": "npx serve",
-    "release": "node scripts/release.js"
+    "release": "node scripts/release.js",
+    "update-version": "node scripts/update-version.js"
   },
   "repository": {
     "type": "git",
