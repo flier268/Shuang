@@ -3,6 +3,7 @@
   "short_name": "双拼练习",
   "description": "帮助你快速上手双拼输入法",
   "start_url": "/",
+  "id": "/",
   "display": "standalone",
   "background_color": "#eee",
   "theme_color": "#000",
@@ -43,7 +44,7 @@
       "form_factor": "narrow"
     },
     {
-      "src": "screenshot-desktop.png", 
+      "src": "screenshot-desktop.png",
       "sizes": "1280x800",
       "type": "image/png",
       "form_factor": "wide"
